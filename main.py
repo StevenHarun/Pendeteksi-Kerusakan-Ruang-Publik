@@ -17,7 +17,7 @@ def generate_frames(path_x=''):
 
 @app.route('/dashboard', methods = ['GET', 'POST'])
 def dashboard():
-    return render_template('dashboard.html')
+    return render_template('index.html')
 
 @app.route("/stream", methods=['GET', 'POST'])
 def webcam():
